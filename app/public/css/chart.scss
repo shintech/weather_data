@@ -1,0 +1,46 @@
+$color-red: red;
+
+.line {
+  fill: none;
+  stroke-width: 2px;
+}
+.line-red {
+  stroke: red;
+}
+
+.line-blue {
+  stroke: blue;
+}
+
+.line-green {
+  stroke: green;
+}
+
+.line-steelblue {
+  stroke: steelblue;
+}
+
+.grid line {
+  stroke: grey;
+  stroke-opacity: 0.5;
+  // shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 32%; 
+  vertical-align: top;
+  overflow: hidden;
+}
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
